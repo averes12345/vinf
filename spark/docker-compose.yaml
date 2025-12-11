@@ -1,0 +1,14 @@
+services:
+  spark:
+    build: .
+    image: vinf-spark
+    container_name: spark-local
+    working_dir: /app
+    volumes:
+      - ./app:/app/src
+      - /home/adamveres/Projects/VINF_I/wiki_data:/data
+    command: tail -f /dev/null
+    tty: true
+    stdin_open: true
+    ports:
+      - "4040:4040"
