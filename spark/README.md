@@ -361,5 +361,3 @@ redirects.select("page_id", "title", "redirect_target_title", "categories") \
 |impact-year             |
 |kegg                    |
 +------------------------+
-
-Does this seem correct? Are these infobox items? (The majority of them look like crap). Which ones do we actually care about?
